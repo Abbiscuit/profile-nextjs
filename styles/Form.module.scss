@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  .input {
+    margin-bottom: 8px;
+    height: 40px;
+    padding: 8px;
+  }
+
+  .button {
+    height: 40px;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: #fff;
+      color: #333;
+      border: 2px solid #333;
+    }
+  }
+}
