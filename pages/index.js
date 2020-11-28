@@ -20,10 +20,10 @@ const Home = () => {
         </Link>
       </header>
 
-      <section className={styles.section}>
+      {/* <section className={styles.section}>
         <h3 className={styles.sectionTitle}>Join our course now</h3>
         <Form />
-      </section>
+      </section> */}
 
       <section className={styles.section}>
         <h3 className={styles.sectionTitle}>Join our course now</h3>

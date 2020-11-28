@@ -14,6 +14,12 @@ const Card = () => {
           lorem ipsum dolor sit lorem ipsum sit lorem ipsum sit lorem ipsum
           lorem ipsum dolor sit lorem ipsum
         </p>
+
+        <div className={styles.tags}>
+          <span className={styles.tag}>UI</span>
+          <span className={styles.tag}>UX</span>
+          <span className={styles.tag}>IA</span>
+        </div>
       </div>
     </div>
   );

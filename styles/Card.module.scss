@@ -21,5 +21,21 @@
       color: #333;
       line-height: 140%;
     }
+
+    .tags {
+      padding: 8px 0;
+
+      .tag {
+        min-width: 48px;
+        text-align: center;
+        color: #333;
+        display: inline-block;
+        font-size: 14px;
+        padding: 4px 8px;
+        margin: 0 8px;
+        background-color: #eee;
+        border-radius: 16px;
+      }
+    }
   }
 }
