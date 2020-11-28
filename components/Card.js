@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/Card.module.scss';
+import Link from 'next/link';
 
 const Card = () => {
   return (
@@ -16,9 +17,17 @@ const Card = () => {
         </p>
 
         <div className={styles.tags}>
-          <span className={styles.tag}>UI</span>
-          <span className={styles.tag}>UX</span>
-          <span className={styles.tag}>IA</span>
+          <Link href="/">
+            <span className={styles.tag}>UI</span>
+          </Link>
+
+          <Link href="/">
+            <span className={styles.tag}>UX</span>
+          </Link>
+
+          <Link href="/">
+            <span className={styles.tag}>IA</span>
+          </Link>
         </div>
       </div>
     </div>
